@@ -1,4 +1,4 @@
-.class public Llitex/settings/AboutActivity;
+.class public Llitex/settings/UpdateActivity;
 .super Llitex/WaFragment;
 
 
@@ -9,9 +9,6 @@
     invoke-direct {p0}, Llitex/WaFragment;-><init>()V
 
     return-void
-.end method
-
-.method public static native setOnClickListener(Landroid/app/Activity;Ljava/lang/String;Ljava/lang/String;I)V
 .end method
 
 

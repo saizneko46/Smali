@@ -1,4 +1,4 @@
-.class public Llitex/settings/AboutActivity;
+.class public Llitex/settings/SettingsActivity;
 .super Llitex/WaFragment;
 
 
@@ -16,5 +16,11 @@
 
 
 # virtual methods
+.method public native onBackPressed()V
+.end method
+
 .method public native onCreate(Landroid/os/Bundle;)V
+.end method
+
+.method public native onCreateOptionsMenu(Landroid/view/Menu;)Z
 .end method
