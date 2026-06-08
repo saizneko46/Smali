@@ -1,0 +1,30 @@
+.class public Llitex/updater/UpdateHandler$6;
+.super Ljava/lang/Object;
+
+# interfaces
+.implements Ljava/lang/Runnable;
+
+
+# instance fields
+.field final synthetic this$0:Llitex/updater/UpdateHandler;
+
+.field final synthetic val$f3:Landroid/content/Context;
+
+
+# direct methods
+.method constructor <init>(Llitex/updater/UpdateHandler;Landroid/content/Context;)V
+    .registers 3
+
+    iput-object p1, p0, Llitex/updater/UpdateHandler$6;->this$0:Llitex/updater/UpdateHandler;
+
+    iput-object p2, p0, Llitex/updater/UpdateHandler$6;->val$f3:Landroid/content/Context;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public native run()V
+.end method
